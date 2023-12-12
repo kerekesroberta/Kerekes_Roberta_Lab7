@@ -13,6 +13,10 @@ namespace Kerekes_Roberta_Lab7
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                })
+                .ConfigureEssentials(essentials =>
+                {
+                    essentials.UseMapServiceToken("3Xz8FSi9K5HoTIDGbYUD~_rPJbGbllLtt7otWeXbjwA~AiFpAQdOv3b7yACHqKRKvX8jtVMg7J7ru7t-VdklU6YqoO2LKPZlHC8mvQkvgjUc");
                 });
 
 #if DEBUG

@@ -39,7 +39,7 @@ namespace Kerekes_Roberta_Lab7.Data
         {
             return _database.Table<Product>().ToListAsync();
         }
-    
+
 
         public Task<List<ShopList>> GetShopListsAsync()
         {
